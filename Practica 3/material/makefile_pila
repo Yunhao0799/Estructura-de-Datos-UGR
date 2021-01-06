@@ -1,0 +1,19 @@
+all:	bin/pruebacola_max_pila
+
+clean:
+	echo "Limpiando"
+	rm obj/*
+
+mrproper: clean	
+	rm bin/pruebacola_max_pila
+
+obj/Cola_max_pila.o:	src/Cola_max_pila.cpp include/Cola_max_pila.h 
+	g++ -c -o obj/Cola_max_pila.o -Iinclude src/Cola_max_pila.cpp
+
+obj/pruebacola_max_pila.o:	include/Cola_max_pila.h src/Cola_max_pila.cpp src/pruebacola_max_pila.cpp
+	g++ -g -c -o obj/pruebacola_max_pila.o -Iinclude src/pruebacola_max_pila.cpp
+
+bin/pruebacola_max_pila:	obj/pruebacola_max_pila.o obj/Cola_max_pila.o
+	g++ -o bin/pruebacola_max_pila obj/pruebacola_max_pila.o obj/Cola_max_pila.o
+
+

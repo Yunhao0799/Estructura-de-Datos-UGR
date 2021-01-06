@@ -1,0 +1,138 @@
+Se introduce el valor 2. El maximo es 2
+Cola: 
+2 
+Maximos: 
+2 
+
+Se introduce el valor 3. El maximo es 3
+Cola: 
+3 2 
+Maximos: 
+3 3 
+
+Se introduce el valor 5. El maximo es 5
+Cola: 
+5 3 2 
+Maximos: 
+5 5 5 
+
+Se introduce el valor 4. El maximo es 4
+Cola: 
+4 5 3 2 
+Maximos: 
+4 5 5 5 
+
+Se introduce el valor 9. El maximo es 9
+Cola: 
+9 4 5 3 2 
+Maximos: 
+9 9 5 5 5 
+
+Se introduce el valor 7. El maximo es 7
+Cola: 
+7 9 4 5 3 2 
+Maximos: 
+7 9 9 5 5 5 
+
+Se introduce el valor 8. El maximo es 8
+Cola: 
+8 7 9 4 5 3 2 
+Maximos: 
+8 8 9 9 5 5 5 
+
+La cola tiene 7 elementos. El maximo es 8
+El frente contiene 4. El maximo es 8. Se quita este valor
+Cola: 
+7 9 5 3 2 
+Maximos: 
+8 9 5 5 5 
+
+El frente contiene 5. El maximo es 8. Se quita este valor
+Cola: 
+9 3 2 
+Maximos: 
+9 5 5 
+
+El frente contiene 3. El maximo es 9. Se quita este valor
+Cola: 
+9 2 
+Maximos: 
+9 5 
+
+El frente contiene 2. El maximo es 9. Se quita este valor
+Cola: 
+9 
+Maximos: 
+9 
+
+El frente contiene 9. El maximo es 9. Se quita este valor
+Cola: 
+
+Maximos: 
+
+
+
+
+
+
+Se introduce el valor 2.4. El maximo es 2.4
+Cola: 
+2.4 
+Maximos: 
+2.4 
+
+Se introduce el valor 5.5. El maximo es 5.5
+Cola: 
+5.5 2.4 
+Maximos: 
+5.5 5.5 
+
+Se introduce el valor 4.1. El maximo es 4.1
+Cola: 
+4.1 5.5 2.4 
+Maximos: 
+4.1 5.5 5.5 
+
+Se introduce el valor 9.6. El maximo es 9.6
+Cola: 
+9.6 4.1 5.5 2.4 
+Maximos: 
+9.6 9.6 5.5 5.5 
+
+Se introduce el valor 7.9. El maximo es 7.9
+Cola: 
+7.9 9.6 4.1 5.5 2.4 
+Maximos: 
+7.9 9.6 9.6 5.5 5.5 
+
+Se introduce el valor 8.3. El maximo es 8.3
+Cola: 
+8.3 7.9 9.6 4.1 5.5 2.4 
+Maximos: 
+8.3 8.3 9.6 9.6 5.5 5.5 
+
+La cola tiene 6 elementos. El maximo es 8.3
+El frente contiene 4.1. El maximo es 8.3. Se quita este valor
+Cola: 
+7.9 9.6 5.5 2.4 
+Maximos: 
+8.3 9.6 5.5 5.5 
+
+El frente contiene 5.5. El maximo es 8.3. Se quita este valor
+Cola: 
+9.6 2.4 
+Maximos: 
+9.6 5.5 
+
+El frente contiene 2.4. El maximo es 9.6. Se quita este valor
+Cola: 
+9.6 
+Maximos: 
+9.6 
+
+El frente contiene 9.6. El maximo es 9.6. Se quita este valor
+Cola: 
+
+Maximos: 
+
+

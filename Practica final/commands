@@ -1,0 +1,18 @@
+
+//lista_palabras
+bin/test_lista_palatras data/diccionario1.txt
+
+
+//letras conjunto_letras
+bin/prueba_letras_conjunto_letras data/letras.txt
+
+
+
+//main_letras.cpp
+bin/letras data/spanish.txt data/letras.txt 8 P
+
+
+
+//main_cantidad_letras.cpp
+bin/cantidad_letras data/spanish.txt data/letras.txt salida.txt
+
